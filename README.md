@@ -1,4 +1,4 @@
-# OCR_For_Captchas
+# Object Character Recognition for Captchas
 
  OCR (Optical Character Recognition) is the technology that enables the conversion of images
  containing printed or handwritten text into machine-readable text.
