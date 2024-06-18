@@ -34,8 +34,20 @@ Given an image of captcha, you have to train a model which is capable of predict
   <img src="https://github.com/mbappeenjoyer/OCR_For_Captchas/assets/134948011/bbe85359-d445-471c-b5a2-db1da4e7ae60" width="600" height="400" align="center">
  </p>
 
+  It was important to first, fine-tune TrOCR so that it could be leveraged for our downstream
+ OCR task for Captcha images. For this purpose, we leveraged the pre-trained model
+ available on HuggingFace, and implemented a fine-tuning of the pre-trained model by using
+ the Seq2Seq trainer. We made use of the Weights and Biases platform to monitor the
+ model progress.
+
  <p align="center">
   <img src="https://github.com/mbappeenjoyer/OCR_For_Captchas/assets/134948011/97414188-2d57-4fdf-97da-cdd077e4d053" width="600" height="400" align="center">
  </p>
 
+ We implemented a 80-20 split between the training and the validation datasets, and defined a PyTorch
+ class for the Dataset for easy processing. First, we tried to fine-tune the model with only 3
+ epochs(TrOCR_3), which led to a CER loss of 0.02. After this, we fine-tuned our model for a total of 6
+ epochs(TrOCR_6), which took 585 minutes (~10 hours) to finish compiling. TrOCR ended up as the best
+ performer out of all the approaches that we implemented, achieving a best CER loss of 0.00088 on the
+ test image dataset.
 
