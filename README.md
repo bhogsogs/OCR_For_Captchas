@@ -15,13 +15,13 @@ Given an image of captcha, you have to train a model which is capable of predict
  characters in that image correctly.
  In order to solve this problem, the following data was made available to us:
  
-   test_images_mlware.zip : This contained 5000 images on which we had to gather
-   predictions using our OCR model.
-   train_images_mlware.zip : This contained the 25000 images with the help of which we
-   trained our OCR model.
-   train-labels_mlware.csv : This .csv file contained the actual text present in each
-   image belonging to the training set.
-   sample_submission_mlware.csv
+   **test_images_mlware.zip** : This contained 5000 images on which we had to gather
+   predictions using our OCR model.\
+   **train_images_mlware.zip** : This contained the 25000 images with the help of which we
+   trained our OCR model.\
+   **train-labels_mlware.csv** : This .csv file contained the actual text present in each
+   image belonging to the training set.\
+   **sample_submission_mlware.csv** : Sample submission
 
  # Approach
 
@@ -30,3 +30,9 @@ Given an image of captcha, you have to train a model which is capable of predict
  task at hand. TrOCR excels in printed, handwritten, and scene text recognition by
  integrating Transformer architecture for both image understanding and text generation,
  emphasizing simplicity for superior performance. 
+
+ ![image](https://github.com/mbappeenjoyer/OCR_For_Captchas/assets/134948011/bbe85359-d445-471c-b5a2-db1da4e7ae60)
+
+ ![plot_per_epoch](https://github.com/mbappeenjoyer/OCR_For_Captchas/assets/134948011/97414188-2d57-4fdf-97da-cdd077e4d053)
+
+
