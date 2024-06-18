@@ -31,8 +31,8 @@ Given an image of captcha, you have to train a model which is capable of predict
  integrating Transformer architecture for both image understanding and text generation,
  emphasizing simplicity for superior performance. 
 
- <img src="https://github.com/mbappeenjoyer/OCR_For_Captchas/assets/134948011/bbe85359-d445-471c-b5a2-db1da4e7ae60" width="1000" height="1000">\
+ <img src="https://github.com/mbappeenjoyer/OCR_For_Captchas/assets/134948011/bbe85359-d445-471c-b5a2-db1da4e7ae60" width="600" height="400">\
 
- <img src="https://github.com/mbappeenjoyer/OCR_For_Captchas/assets/134948011/97414188-2d57-4fdf-97da-cdd077e4d053" width="1000" height="1000">
+ <img src="https://github.com/mbappeenjoyer/OCR_For_Captchas/assets/134948011/97414188-2d57-4fdf-97da-cdd077e4d053" width="600" height="400">
 
 
