@@ -1,6 +1,6 @@
 # Object Character Recognition for Captchas
 
- OCR (Optical Character Recognition) is the technology that enables the conversion of images
+ OCR (Object Character Recognition) is the technology that enables the conversion of images
  containing printed or handwritten text into machine-readable text.
  Several Machine Learning-based approaches  have been proposed for OCR, that include
  utilizing object detection models like YoLOv5 and DBNet for text localization, and
