@@ -51,3 +51,10 @@ Given an image of captcha, you have to train a model which is capable of predict
  performer out of all the approaches that we implemented, achieving a best CER loss of 0.00088 on the
  test image dataset.
 
+
+  # Results
+
+  We achieved a CER score of 0.00088 on the private(testing) data. 
+  (Kaggle Competition [link](https://www.kaggle.com/competitions/mlware24/leaderboard))
+
+
