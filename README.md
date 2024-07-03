@@ -8,7 +8,7 @@
  recognition. Recent advancements integrate Transformers for improved accuracy, with
  potential exploration of pre-trained CV and NLP models to further enhance performance.
 
- (Link to dataset - [](https://drive.google.com/drive/folders/1A3RqkOi5U0wvS1WOUbQBeUuZJe2blLmZ?usp=sharing))
+ (Link to [dataset](https://drive.google.com/drive/folders/1A3RqkOi5U0wvS1WOUbQBeUuZJe2blLmZ?usp=sharing))
 
  # Problem Statement
 
